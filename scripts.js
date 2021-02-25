@@ -593,11 +593,6 @@ character_data = {
     22: {
         name: "迪奥娜",
         link: "https://wiki.biligame.com/ys/%E8%BF%AA%E5%A5%A5%E5%A8%9C",
-        artifact_recommendation: [],
-    },
-    23: {
-        name: "迪奥娜",
-        link: "https://wiki.biligame.com/ys/%E8%BF%AA%E5%A5%A5%E5%A8%9C",
         artifact_recommendation: [
             {
                 artifact_set_ids: [5, 11], //被怜爱的少女、昔日宗室之仪
@@ -631,37 +626,37 @@ character_data = {
             },
         ],
     },
-    24: {
+    23: {
         name: "雷泽",
         link: "https://wiki.biligame.com/ys/%E9%9B%B7%E6%B3%BD",
         artifact_recommendation: [],
     },
-    25: {
+    24: {
         name: "可莉",
         link: "https://wiki.biligame.com/ys/%E5%8F%AF%E8%8E%89",
         artifact_recommendation: [],
     },
-    26: {
+    25: {
         name: "温迪",
         link: "https://wiki.biligame.com/ys/%E6%B8%A9%E8%BF%AA",
         artifact_recommendation: [],
     },
-    27: {
+    26: {
         name: "琴",
         link: "https://wiki.biligame.com/ys/%E7%90%B4",
         artifact_recommendation: [],
     },
-    28: {
+    27: {
         name: "莫娜",
         link: "https://wiki.biligame.com/ys/%E8%8E%AB%E5%A8%9C",
         artifact_recommendation: [],
     },
-    29: {
+    28: {
         name: "迪卢克",
         link: "https://wiki.biligame.com/ys/%E8%BF%AA%E5%8D%A2%E5%85%8B",
         artifact_recommendation: [],
     },
-    30: {
+    29: {
         name: "阿贝多",
         link: "https://wiki.biligame.com/ys/%E9%98%BF%E8%B4%9D%E5%A4%9A",
         artifact_recommendation: [],
@@ -721,7 +716,11 @@ for (const key in character_data) {
             row.setAttribute("class", "row");
             let col_name = document.createElement("div");
             col_name.setAttribute("class", "col-2 border bg-light");
-            col_name.textContent = character_data[key]["name"];
+            let character_link = document.createElement("a");
+            character_link.setAttribute("href", character_data[key]["link"]);
+            character_link.setAttribute("target", "blank");
+            character_link.textContent = character_data[key]["name"];
+            col_name.appendChild(character_link.cloneNode(true));
             row.appendChild(col_name.cloneNode(true));
 
             let col_artifacts = document.createElement("div");
@@ -778,7 +777,7 @@ document.getElementById("submit_btn").addEventListener("click", function () {
     let artifact_sub_attr = [artifact_sub_attr_1, artifact_sub_attr_2, artifact_sub_attr_3, artifact_sub_attr_4].filter(x => x != 0);
 
     let matched_characters = [];
-    if (artifact_set != "" && artifact_position != "" && artifact_main_attr != "") {
+    if (artifact_set != "" && artifact_position != "" && artifact_main_attr != "" && artifact_sub_attr.length > 0) {
         for (const key in character_data) {
             if (Object.hasOwnProperty.call(character_data, key)) {
                 let character = character_data[key];
@@ -797,7 +796,7 @@ document.getElementById("submit_btn").addEventListener("click", function () {
                             artifact_main_attr_ids.includes(artifact_main_attr) &&
                             // artifact_sub_attr.every(x => artifact_sub_attr_ids.includes(x))
                             (artifact_sub_attr_ids.length == 0 || artifact_sub_attr.filter(x => artifact_sub_attr_ids.includes(x)).length > 0)) {
-                            // matched_characters.push(name);
+                            matched_characters.push(name);
 
                             let col = document.createElement("div");
                             // col.setAttribute("class","col-2");
@@ -825,8 +824,18 @@ document.getElementById("submit_btn").addEventListener("click", function () {
                 }
             }
         }
-
         console.log(matched_characters);
+
+        if (matched_characters.length == 0) {
+            let col = document.createElement("div");
+            col.innerHTML = "未找到合适的角色 <del>（太残酷了ORZ...）</del>";
+            document.getElementById("matched_result").appendChild(col.cloneNode(true));
+        }
+    }
+    else{
+        let col = document.createElement("div");
+            col.innerHTML = "请选择 <mark>圣遗物名称</mark>、<mark>位置</mark>、<mark>主属性</mark>，和至少一项<mark>副属性</mark>";
+            document.getElementById("matched_result").appendChild(col.cloneNode(true));
     }
 });
 
