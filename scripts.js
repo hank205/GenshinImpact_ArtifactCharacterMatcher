@@ -1224,6 +1224,7 @@ for (const key in artifact_sub_attr_dict) {
 ////////////////////////////////  populate drop down list end  ////////////////////////////////
 
 
+////////////////////////////////  helper functions  ////////////////////////////////
 //character format: child of character_data object
 function addCharacterRowToTable(character, table_id) {
     let row = document.createElement("div");
@@ -1319,21 +1320,22 @@ function addCharacterArtifactRowToTable(character, artifact, table_id) {
 
     document.getElementById(table_id).appendChild(row.cloneNode(true));
 }
-
-////////////////////////////////  test purpose: display character_data  ////////////////////////////////
-for (const key in character_data) {
-    if (Object.hasOwnProperty.call(character_data, key)) {
-        if (Object.hasOwnProperty.call(character_data[key], "name")
-            && Object.hasOwnProperty.call(character_data[key], "artifact_recommendation")) {
-                addCharacterRowToTable(character_data[key], "character_data_table");
+function setDropDownSelectedValue(dropdown_id, value){
+    let dropdown = document.getElementById(dropdown_id);
+    let dropdown_options = dropdown.options;
+    for (let index = 0; index < dropdown_options.length; index++) {
+        if (dropdown_options[index].value == String(value)) {
+            dropdown.selectedIndex = index;
+            break;
         }
     }
 }
-////////////////////////////////  test purpose: display character_data end  ////////////////////////////////
+////////////////////////////////  helper functions end  ////////////////////////////////
 
 
+////////////////////////////////  events  ////////////////////////////////
 // search algorithm
-document.getElementById("submit_btn").addEventListener("click", function () {
+document.getElementById("search_btn").addEventListener("click", function () {
     document.getElementById("matched_result").innerHTML = '';
     document.getElementById("result_data_table_body").innerHTML = '';
     
@@ -1345,6 +1347,14 @@ document.getElementById("submit_btn").addEventListener("click", function () {
     let artifact_sub_attr_3 = Number(document.getElementById("artifact_sub_attr_3").selectedOptions[0].value);
     let artifact_sub_attr_4 = Number(document.getElementById("artifact_sub_attr_4").selectedOptions[0].value);
     let artifact_sub_attr = [artifact_sub_attr_1, artifact_sub_attr_2, artifact_sub_attr_3, artifact_sub_attr_4].filter(x => x != 0);
+
+    sessionStorage["artifact_set"] = artifact_set;
+    sessionStorage["artifact_position"] = artifact_position;
+    sessionStorage["artifact_main_attr"] = artifact_main_attr;
+    sessionStorage["artifact_sub_attr_1"] = artifact_sub_attr_1;
+    sessionStorage["artifact_sub_attr_2"] = artifact_sub_attr_2;
+    sessionStorage["artifact_sub_attr_3"] = artifact_sub_attr_3;
+    sessionStorage["artifact_sub_attr_4"] = artifact_sub_attr_4;
 
     let matched_characters = [];
     if (artifact_set != "" && artifact_position != "" && artifact_main_attr != "" && artifact_sub_attr.length > 0) {
@@ -1418,26 +1428,56 @@ document.getElementById("artifact_position").addEventListener("change", function
     let artifact_position = Number(targetElement.selectedOptions[0].value);
     let _artifact_main_attr = document.getElementById("artifact_main_attr");
     if (artifact_position == 1 /* 生之花 */) {
-        let artifact_main_attr_options = artifact_main_attr.options;
-        for (let index = 0; index < artifact_main_attr_options.length; index++) {
-            if (artifact_main_attr_options[index].value == "2" /* 数值生命值 */) {
-                _artifact_main_attr.selectedIndex = index;
-                break;
-            }
-        }
+        setDropDownSelectedValue("artifact_main_attr", "2" /* 数值生命值 */);
         _artifact_main_attr.setAttribute("disabled", true);
     }
     else if (artifact_position == 2 /* 死之羽 */) {
-        let artifact_main_attr_options = artifact_main_attr.options;
-        for (let index = 0; index < artifact_main_attr_options.length; index++) {
-            if (artifact_main_attr_options[index].value == "1" /* 数值攻击力 */) {
-                _artifact_main_attr.selectedIndex = index;
-                break;
-            }
-        }
+        setDropDownSelectedValue("artifact_main_attr", "1" /* 数值攻击力 */);
         _artifact_main_attr.setAttribute("disabled", true);
     }
     else{
         _artifact_main_attr.removeAttribute("disabled");
     }
 });
+////////////////////////////////  events end  ////////////////////////////////
+
+
+////////////////////////////////  check sessionStorage  ////////////////////////////////
+if (sessionStorage["artifact_set"]) {
+	setDropDownSelectedValue("artifact_set", sessionStorage["artifact_set"]);
+}
+if (sessionStorage["artifact_position"]) {
+	setDropDownSelectedValue("artifact_position", sessionStorage["artifact_position"]);
+}
+if (sessionStorage["artifact_main_attr"]) {
+	setDropDownSelectedValue("artifact_main_attr", sessionStorage["artifact_main_attr"]);
+}
+if (sessionStorage["artifact_sub_attr_1"]) {
+	setDropDownSelectedValue("artifact_sub_attr_1", sessionStorage["artifact_sub_attr_1"]);
+}
+if (sessionStorage["artifact_sub_attr_2"]) {
+	setDropDownSelectedValue("artifact_sub_attr_2", sessionStorage["artifact_sub_attr_2"]);
+}
+if (sessionStorage["artifact_sub_attr_3"]) {
+	setDropDownSelectedValue("artifact_sub_attr_3", sessionStorage["artifact_sub_attr_3"]);
+}
+if (sessionStorage["artifact_sub_attr_4"]) {
+	setDropDownSelectedValue("artifact_sub_attr_4", sessionStorage["artifact_sub_attr_4"]);
+}
+// if (artifact_set != "" && artifact_position != "" && artifact_main_attr != "" && artifact_sub_attr.length > 0) {
+    document.getElementById("search_btn").click();
+// }
+////////////////////////////////  sessionStorage end  ////////////////////////////////
+
+
+////////////////////////////////  test purpose: display character_data  ////////////////////////////////
+for (const key in character_data) {
+    if (Object.hasOwnProperty.call(character_data, key)) {
+        if (Object.hasOwnProperty.call(character_data[key], "name")
+            && Object.hasOwnProperty.call(character_data[key], "artifact_recommendation")) {
+                addCharacterRowToTable(character_data[key], "character_data_table");
+        }
+    }
+}
+////////////////////////////////  test purpose: display character_data end  ////////////////////////////////
+
