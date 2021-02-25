@@ -684,7 +684,98 @@ character_data = {
     16: {
         name: "安柏",
         link: "https://wiki.biligame.com/ys/%E5%AE%89%E6%9F%8F",
-        artifact_recommendation: [],
+        artifact_recommendation: [
+            {
+                artifact_set_ids: [1], //流浪大地的乐团
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [10, 9, 4, 1, 8], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素充能效率
+            },
+            {
+                artifact_set_ids: [1], //流浪大地的乐团
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1, 8], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素充能效率
+            },
+            {
+                artifact_set_ids: [1], //流浪大地的乐团
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [5], //百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1, 8], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素充能效率
+            },
+            {
+                artifact_set_ids: [1], //流浪大地的乐团
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [12], //火元素加成
+                artifact_sub_attr_ids: [10, 9, 4, 1, 8], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素充能效率
+            },
+            {
+                artifact_set_ids: [1], //流浪大地的乐团
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [6, 7], //暴击率、暴击伤害
+                artifact_sub_attr_ids: [10, 9, 4, 1, 8], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素充能效率
+            },
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [9, 7, 4, 1, 8], //暴击率、元素精通、百分比攻击力、数值攻击力、元素充能效率
+            },
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [9, 7, 4, 1, 8], //暴击率、元素精通、百分比攻击力、数值攻击力、元素充能效率
+            },
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [5], //百分比攻击力
+                artifact_sub_attr_ids: [9, 7, 4, 1, 8], //暴击率、元素精通、百分比攻击力、数值攻击力、元素充能效率
+            },
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [12], //火元素伤害加成
+                artifact_sub_attr_ids: [9, 7, 4, 1, 8], //暴击率、元素精通、百分比攻击力、数值攻击力、元素充能效率
+            },
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [6], //暴击率
+                artifact_sub_attr_ids: [9, 7, 4, 1, 8], //暴击率、元素精通、百分比攻击力、数值攻击力、元素充能效率
+            },
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [7, 5, 2], //元素精通、百分比生命值、数值生命值
+            },
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [7, 5, 2], //元素精通、百分比生命值、数值生命值
+            },
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [9], //元素充能效率
+                artifact_sub_attr_ids: [7, 5, 2], //元素精通、百分比生命值、数值生命值
+            },
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [4, 8], //百分比生命值/元素精通
+                artifact_sub_attr_ids: [7, 5, 2], //元素精通、百分比生命值、数值生命值
+            },
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [4], //百分比生命值
+                artifact_sub_attr_ids: [7, 5, 2], //元素精通、百分比生命值、数值生命值
+            },
+        ],
     },
     17: {
         name: "班尼特",
