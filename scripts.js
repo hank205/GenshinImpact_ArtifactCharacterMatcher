@@ -69,61 +69,61 @@ character_data = {
                 artifact_set_ids: [2], //逆飞的流星
                 artifact_position_id: 1, //生之花
                 artifact_main_attr_ids: [2], //数值生命值
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [2], //逆飞的流星
                 artifact_position_id: 2, //死之羽
                 artifact_main_attr_ids: [1], //数值攻击力
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [2], //逆飞的流星
                 artifact_position_id: 3, //时之沙
                 artifact_main_attr_ids: [5], //百分比攻击力
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [2], //逆飞的流星
                 artifact_position_id: 4, //空之杯
                 artifact_main_attr_ids: [17, 5], //岩元素伤害加成/百分比攻击力
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [2], //逆飞的流星
                 artifact_position_id: 5, //理之冠
                 artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [13, 7], //悠古的磐岩、角斗士的终幕礼
                 artifact_position_id: 1, //生之花
                 artifact_main_attr_ids: [2], //数值生命值
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [13, 7], //悠古的磐岩、角斗士的终幕礼
                 artifact_position_id: 2, //死之羽
                 artifact_main_attr_ids: [1], //数值攻击力
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [13, 7], //悠古的磐岩、角斗士的终幕礼
                 artifact_position_id: 3, //时之沙
                 artifact_main_attr_ids: [5], //百分比攻击力
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [13, 7], //悠古的磐岩、角斗士的终幕礼
                 artifact_position_id: 4, //空之杯
                 artifact_main_attr_ids: [17, 5], //岩元素伤害加成/百分比攻击力
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [13, 7], //悠古的磐岩、角斗士的终幕礼
                 artifact_position_id: 5, //理之冠
                 artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
         ],
     },
@@ -140,31 +140,31 @@ character_data = {
                 artifact_set_ids: [11, 12], //昔日宗室之仪、沉沦之心
                 artifact_position_id: 1, //生之花
                 artifact_main_attr_ids: [2], //数值生命值
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [11, 12], //昔日宗室之仪、沉沦之心
                 artifact_position_id: 2, //死之羽
                 artifact_main_attr_ids: [1], //数值攻击力
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [11, 12], //昔日宗室之仪、沉沦之心
                 artifact_position_id: 3, //时之沙
                 artifact_main_attr_ids: [9], //元素充能效率
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [11, 12], //昔日宗室之仪、沉沦之心
                 artifact_position_id: 4, //空之杯
                 artifact_main_attr_ids: [15], //水元素伤害加成
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [11, 12], //昔日宗室之仪、沉沦之心
                 artifact_position_id: 5, //理之冠
                 artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力
             },
         ],
     },
@@ -176,31 +176,31 @@ character_data = {
                 artifact_set_ids: [10], //染血的骑士道
                 artifact_position_id: 1, //生之花
                 artifact_main_attr_ids: [2], //数值生命值
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [10], //染血的骑士道
                 artifact_position_id: 2, //死之羽
                 artifact_main_attr_ids: [1], //数值攻击力
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [10], //染血的骑士道
                 artifact_position_id: 3, //时之沙
                 artifact_main_attr_ids: [5], //百分比攻击力
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [10], //染血的骑士道
                 artifact_position_id: 4, //空之杯
                 artifact_main_attr_ids: [11, 5], //物理伤害加成/百分比攻击力
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
             {
                 artifact_set_ids: [10], //染血的骑士道
                 artifact_position_id: 5, //理之冠
                 artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
             },
         ],
     },
@@ -217,61 +217,61 @@ character_data = {
                 artifact_set_ids: [6], //炽烈的炎之魔女
                 artifact_position_id: 1, //生之花
                 artifact_main_attr_ids: [2], //数值生命值
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4, 7], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1, 7], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力、元素精通
             },
             {
                 artifact_set_ids: [6], //炽烈的炎之魔女
                 artifact_position_id: 2, //死之羽
                 artifact_main_attr_ids: [1], //数值攻击力
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4, 7], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1, 7], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力、元素精通
             },
             {
                 artifact_set_ids: [6], //炽烈的炎之魔女
                 artifact_position_id: 3, //时之沙
                 artifact_main_attr_ids: [5], //百分比攻击力
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4, 7], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1, 7], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力、元素精通
             },
             {
                 artifact_set_ids: [6], //炽烈的炎之魔女
                 artifact_position_id: 4, //空之杯
                 artifact_main_attr_ids: [12], //火元素伤害加成
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4, 7], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1, 7], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力、元素精通
             },
             {
                 artifact_set_ids: [6], //炽烈的炎之魔女
                 artifact_position_id: 5, //理之冠
                 artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4, 7], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1, 7], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力、元素精通
             },
             {
                 artifact_set_ids: [11], //昔日宗室之仪
                 artifact_position_id: 1, //生之花
                 artifact_main_attr_ids: [2], //数值生命值
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4, 7], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1, 7], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力、元素精通
             },
             {
                 artifact_set_ids: [11], //昔日宗室之仪
                 artifact_position_id: 2, //死之羽
                 artifact_main_attr_ids: [1], //数值攻击力
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4, 7], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1, 7], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力、元素精通
             },
             {
                 artifact_set_ids: [11], //昔日宗室之仪
                 artifact_position_id: 3, //时之沙
                 artifact_main_attr_ids: [5], //百分比攻击力
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4, 7], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1, 7], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力、元素精通
             },
             {
                 artifact_set_ids: [11], //昔日宗室之仪
                 artifact_position_id: 4, //空之杯
                 artifact_main_attr_ids: [12], //火元素伤害加成
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4, 7], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1, 7], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力、元素精通
             },
             {
                 artifact_set_ids: [11], //昔日宗室之仪
                 artifact_position_id: 5, //理之冠
                 artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
-                artifact_sub_attr_ids: [9, 10, 8, 1, 4, 7], //暴击率、暴击伤害、元素充能、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1, 7], //暴击伤害、暴击率、元素充能、百分比攻击力、数值攻击力、元素精通
             },
         ],
     },
@@ -283,38 +283,99 @@ character_data = {
                 artifact_set_ids: [5, 7], //被怜爱的少女、角斗士的终幕礼
                 artifact_position_id: 1, //生之花
                 artifact_main_attr_ids: [2], //数值生命值
-                artifact_sub_attr_ids: [1, 4, 8], //数值攻击力、百分比攻击力、元素充能
+                artifact_sub_attr_ids: [4, 1, 8], //百分比攻击力、数值攻击力、元素充能
             },
             {
                 artifact_set_ids: [5, 7], //被怜爱的少女、角斗士的终幕礼
                 artifact_position_id: 2, //死之羽
                 artifact_main_attr_ids: [1], //数值攻击力
-                artifact_sub_attr_ids: [1, 4, 8], //数值攻击力、百分比攻击力、元素充能
+                artifact_sub_attr_ids: [4, 1, 8], //百分比攻击力、数值攻击力、元素充能
             },
             {
                 artifact_set_ids: [5, 7], //被怜爱的少女、角斗士的终幕礼
                 artifact_position_id: 3, //时之沙
                 artifact_main_attr_ids: [5, 9], //百分比攻击力/元素充能效率
-                artifact_sub_attr_ids: [1, 4, 8], //数值攻击力、百分比攻击力、元素充能
+                artifact_sub_attr_ids: [4, 1, 8], //百分比攻击力、数值攻击力、元素充能
             },
             {
                 artifact_set_ids: [5, 7], //被怜爱的少女、角斗士的终幕礼
                 artifact_position_id: 4, //空之杯
                 artifact_main_attr_ids: [5], //百分比攻击力
-                artifact_sub_attr_ids: [1, 4, 8], //数值攻击力、百分比攻击力、元素充能
+                artifact_sub_attr_ids: [4, 1, 8], //百分比攻击力、数值攻击力、元素充能
             },
             {
                 artifact_set_ids: [5, 7], //被怜爱的少女、角斗士的终幕礼
                 artifact_position_id: 5, //理之冠
                 artifact_main_attr_ids: [10], //治疗加成
-                artifact_sub_attr_ids: [1, 4, 8], //数值攻击力、百分比攻击力、元素充能
+                artifact_sub_attr_ids: [4, 1, 8], //百分比攻击力、数值攻击力、元素充能
             },
         ],
     },
     9: {
         name: "刻晴",
         link: "https://wiki.biligame.com/ys/%E5%88%BB%E6%99%B4",
-        artifact_recommendation: [],
+        artifact_recommendation: [
+            {
+                artifact_set_ids: [10], //染血的骑士道
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+            {
+                artifact_set_ids: [10], //染血的骑士道
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+            {
+                artifact_set_ids: [10], //染血的骑士道
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [5], //百分比攻击力
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+            {
+                artifact_set_ids: [10], //染血的骑士道
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [11], //物理伤害加成
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+            {
+                artifact_set_ids: [10], //染血的骑士道
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [7], //暴击伤害
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+            {
+                artifact_set_ids: [3, 8, 7], //平息鸣雷的尊者、如雷的盛怒、角斗士的终幕礼
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+            {
+                artifact_set_ids: [3, 8, 7], //平息鸣雷的尊者、如雷的盛怒、角斗士的终幕礼
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+            {
+                artifact_set_ids: [3, 8, 7], //平息鸣雷的尊者、如雷的盛怒、角斗士的终幕礼
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [5], //百分比攻击力
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+            {
+                artifact_set_ids: [3, 8, 7], //平息鸣雷的尊者、如雷的盛怒、角斗士的终幕礼
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [13], //雷元素伤害加成
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+            {
+                artifact_set_ids: [3, 8, 7], //平息鸣雷的尊者、如雷的盛怒、角斗士的终幕礼
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [7], //暴击伤害
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+        ],
     },
     10: {
         name: "甘雨",
@@ -385,7 +446,98 @@ character_data = {
     11: {
         name: "钟离",
         link: "https://wiki.biligame.com/ys/%E9%92%9F%E7%A6%BB",
-        artifact_recommendation: [],
+        artifact_recommendation: [
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [10, 9, 5, 2, 4, 1, 8], //暴击伤害、暴击率、百分比生命值、数值生命值、百分比攻击力、数值攻击力、元素充能
+            },
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [10, 9, 5, 2, 4, 1, 8], //暴击伤害、暴击率、百分比生命值、数值生命值、百分比攻击力、数值攻击力、元素充能
+            },
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [4, 5], //百分比生命值>百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 5, 2, 4, 1, 8], //暴击伤害、暴击率、百分比生命值、数值生命值、百分比攻击力、数值攻击力、元素充能
+            },
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [17, 4], //岩元素加成>百分比生命值
+                artifact_sub_attr_ids: [10, 9, 5, 2, 4, 1, 8], //暴击伤害、暴击率、百分比生命值、数值生命值、百分比攻击力、数值攻击力、元素充能
+            },
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
+                artifact_sub_attr_ids: [10, 9, 5, 2, 4, 1, 8], //暴击伤害、暴击率、百分比生命值、数值生命值、百分比攻击力、数值攻击力、元素充能
+            },
+            {
+                artifact_set_ids: [2, 7], //逆飞的流星、角斗士的终幕礼
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+            {
+                artifact_set_ids: [2, 7], //逆飞的流星、角斗士的终幕礼
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+            {
+                artifact_set_ids: [2, 7], //逆飞的流星、角斗士的终幕礼
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [4, 5], //百分比生命值/百分比攻击力
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+            {
+                artifact_set_ids: [2, 7], //逆飞的流星、角斗士的终幕礼
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [11, 4], //物理伤害加成/百分比生命值
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+            {
+                artifact_set_ids: [2, 7], //逆飞的流星、角斗士的终幕礼
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
+                artifact_sub_attr_ids: [10, 9], //暴击伤害、暴击率
+            },
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [5, 2], //百分比生命值、数值生命值
+            },
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [5, 2], //百分比生命值、数值生命值
+            },
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [4], //百分比生命值
+                artifact_sub_attr_ids: [5, 2], //百分比生命值、数值生命值
+            },
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [4], //百分比生命值
+                artifact_sub_attr_ids: [5, 2], //百分比生命值、数值生命值
+            },
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [4], //百分比生命值
+                artifact_sub_attr_ids: [5, 2], //百分比生命值、数值生命值
+            },
+        ],
     },
     12: {
         name: "魈",
@@ -395,38 +547,129 @@ character_data = {
                 artifact_set_ids: [14, 7], //翠绿之影、角斗士的终幕礼
                 artifact_position_id: 1, //生之花
                 artifact_main_attr_ids: [2], //数值生命值
-                artifact_sub_attr_ids: [9, 10, 8], //暴击率、暴击伤害、元素充能
+                artifact_sub_attr_ids: [10, 9, 8], //暴击伤害、暴击率、元素充能
             },
             {
                 artifact_set_ids: [14, 7], //翠绿之影、角斗士的终幕礼
                 artifact_position_id: 2, //死之羽
                 artifact_main_attr_ids: [1], //数值攻击力
-                artifact_sub_attr_ids: [9, 10, 8], //暴击率、暴击伤害、元素充能
+                artifact_sub_attr_ids: [10, 9, 8], //暴击伤害、暴击率、元素充能
             },
             {
                 artifact_set_ids: [14, 7], //翠绿之影、角斗士的终幕礼
                 artifact_position_id: 3, //时之沙
                 artifact_main_attr_ids: [5], //百分比攻击力
-                artifact_sub_attr_ids: [9, 10, 8], //暴击率、暴击伤害、元素充能
+                artifact_sub_attr_ids: [10, 9, 8], //暴击伤害、暴击率、元素充能
             },
             {
                 artifact_set_ids: [14, 7], //翠绿之影、角斗士的终幕礼
                 artifact_position_id: 4, //空之杯
-                artifact_main_attr_ids: [15], //风元素加成
-                artifact_sub_attr_ids: [9, 10, 8], //暴击率、暴击伤害、元素充能
+                artifact_main_attr_ids: [16], //风元素加成
+                artifact_sub_attr_ids: [10, 9, 8], //暴击伤害、暴击率、元素充能
             },
             {
                 artifact_set_ids: [14, 7], //翠绿之影、角斗士的终幕礼
                 artifact_position_id: 5, //理之冠
                 artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
-                artifact_sub_attr_ids: [9, 10, 8], //暴击率、暴击伤害、元素充能
+                artifact_sub_attr_ids: [10, 9, 8], //暴击伤害、暴击率、元素充能
             },
         ],
     },
     13: {
         name: "达达利亚",
         link: "https://wiki.biligame.com/ys/%E8%BE%BE%E8%BE%BE%E5%88%A9%E4%BA%9A",
-        artifact_recommendation: [],
+        artifact_recommendation: [
+            {
+                artifact_set_ids: [12], //沉沦之心
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [12], //沉沦之心
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [12], //沉沦之心
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [5], //百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [12], //沉沦之心
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [15], //水元素加成
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [12], //沉沦之心
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [12, 7], //沉沦之心、角斗士的终幕礼
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [12, 7], //沉沦之心、角斗士的终幕礼
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [12, 7], //沉沦之心、角斗士的终幕礼
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [5], //百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [12, 7], //沉沦之心、角斗士的终幕礼
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [15], //水元素加成
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [12, 7], //沉沦之心、角斗士的终幕礼
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [11, 12, 1], //昔日宗室之仪、沉沦之心、流浪大地的乐团
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [9, 10, 4, 1], //暴击率 > 暴击伤害、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [11, 12, 1], //昔日宗室之仪、沉沦之心、流浪大地的乐团
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [9, 10, 4, 1], //暴击率 > 暴击伤害、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [11, 12, 1], //昔日宗室之仪、沉沦之心、流浪大地的乐团
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [5], //百分比攻击力
+                artifact_sub_attr_ids: [9, 10, 4, 1], //暴击率 > 暴击伤害、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [11, 12, 1], //昔日宗室之仪、沉沦之心、流浪大地的乐团
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [15], //水元素加成
+                artifact_sub_attr_ids: [9, 10, 4, 1], //暴击率 > 暴击伤害、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [11, 12, 1], //昔日宗室之仪、沉沦之心、流浪大地的乐团
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [6], //暴击率
+                artifact_sub_attr_ids: [9, 10, 4, 1], //暴击率 > 暴击伤害、百分比攻击力、数值攻击力
+            },
+        ],
     },
     14: {
         name: "丽莎",
@@ -446,7 +689,98 @@ character_data = {
     17: {
         name: "班尼特",
         link: "https://wiki.biligame.com/ys/%E7%8F%AD%E5%B0%BC%E7%89%B9",
-        artifact_recommendation: [],
+        artifact_recommendation: [
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [5, 8], //百分比生命值、元素充能效率
+            },
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [5, 8], //百分比生命值、元素充能效率
+            },
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [9, 4], //元素充能效率、百分比生命值
+                artifact_sub_attr_ids: [5, 8], //百分比生命值、元素充能效率
+            },
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [9, 4], //元素充能效率、百分比生命值
+                artifact_sub_attr_ids: [5, 8], //百分比生命值、元素充能效率
+            },
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [9, 4, 10], //元素充能效率、百分比生命值、治疗加成
+                artifact_sub_attr_ids: [5, 8], //百分比生命值、元素充能效率
+            },
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [5, 2, 4, 1, 9, 10, 8], //百分比生命值、数值生命值、百分比攻击力、数值攻击力、暴击率、暴击伤害、元素充能效率
+            },
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [5, 2, 4, 1, 9, 10, 8], //百分比生命值、数值生命值、百分比攻击力、数值攻击力、暴击率、暴击伤害、元素充能效率
+            },
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [9, 7, 5], //元素充能效率、暴击伤害、百分比攻击力
+                artifact_sub_attr_ids: [5, 2, 4, 1, 9, 10, 8], //百分比生命值、数值生命值、百分比攻击力、数值攻击力、暴击率、暴击伤害、元素充能效率
+            },
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [9, 7, 5], //元素充能效率、暴击伤害、百分比攻击力
+                artifact_sub_attr_ids: [5, 2, 4, 1, 9, 10, 8], //百分比生命值、数值生命值、百分比攻击力、数值攻击力、暴击率、暴击伤害、元素充能效率
+            },
+            {
+                artifact_set_ids: [11], //昔日宗室之仪
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [9, 7, 5], //元素充能效率、暴击伤害、百分比攻击力
+                artifact_sub_attr_ids: [5, 2, 4, 1, 9, 10, 8], //百分比生命值、数值生命值、百分比攻击力、数值攻击力、暴击率、暴击伤害、元素充能效率
+            },
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1], //暴击伤害、暴击率、元素充能效率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1], //暴击伤害、暴击率、元素充能效率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [5], //百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1], //暴击伤害、暴击率、元素充能效率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [12], //火元素伤害加成
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1], //暴击伤害、暴击率、元素充能效率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [6], //暴击率
+                artifact_sub_attr_ids: [10, 9, 8, 4, 1], //暴击伤害、暴击率、元素充能效率、百分比攻击力、数值攻击力
+            },
+        ],
     },
     18: {
         name: "砂糖",
@@ -456,7 +790,38 @@ character_data = {
     19: {
         name: "芭芭拉",
         link: "https://wiki.biligame.com/ys/%E8%8A%AD%E8%8A%AD%E6%8B%89",
-        artifact_recommendation: [],
+        artifact_recommendation: [
+            {
+                artifact_set_ids: [5], //被怜爱的少女
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [5, 2, 8], //百分比生命值、数值生命值、元素充能
+            },
+            {
+                artifact_set_ids: [5], //被怜爱的少女
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [5, 2, 8], //百分比生命值、数值生命值、元素充能
+            },
+            {
+                artifact_set_ids: [5], //被怜爱的少女
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [4, 9], //百分比生命值/元素充能效率
+                artifact_sub_attr_ids: [5, 2, 8], //百分比生命值、数值生命值、元素充能
+            },
+            {
+                artifact_set_ids: [5], //被怜爱的少女
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [4], //百分比生命值
+                artifact_sub_attr_ids: [5, 2, 8], //百分比生命值、数值生命值、元素充能
+            },
+            {
+                artifact_set_ids: [5], //被怜爱的少女
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [10], //治疗加成
+                artifact_sub_attr_ids: [5, 2, 8], //百分比生命值、数值生命值、元素充能
+            },
+        ],
     },
     20: {
         name: "菲谢尔",
@@ -466,61 +831,61 @@ character_data = {
                 artifact_set_ids: [8, 1, 7], //如雷的盛怒、流浪大地的乐团、角斗士的终幕礼
                 artifact_position_id: 1, //生之花
                 artifact_main_attr_ids: [2], //数值生命值
-                artifact_sub_attr_ids: [9, 10, 1, 4, 7], //暴击率、暴击伤害、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 4, 1, 7], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素精通
             },
             {
                 artifact_set_ids: [8, 1, 7], //如雷的盛怒、流浪大地的乐团、角斗士的终幕礼
                 artifact_position_id: 2, //死之羽
                 artifact_main_attr_ids: [1], //数值攻击力
-                artifact_sub_attr_ids: [9, 10, 1, 4, 7], //暴击率、暴击伤害、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 4, 1, 7], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素精通
             },
             {
                 artifact_set_ids: [8, 1, 7], //如雷的盛怒、流浪大地的乐团、角斗士的终幕礼
                 artifact_position_id: 3, //时之沙
                 artifact_main_attr_ids: [5], //百分比攻击力
-                artifact_sub_attr_ids: [9, 10, 1, 4, 7], //暴击率、暴击伤害、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 4, 1, 7], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素精通
             },
             {
                 artifact_set_ids: [8, 1, 7], //如雷的盛怒、流浪大地的乐团、角斗士的终幕礼
                 artifact_position_id: 4, //空之杯
                 artifact_main_attr_ids: [13], //雷元素加成
-                artifact_sub_attr_ids: [9, 10, 1, 4, 7], //暴击率、暴击伤害、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 4, 1, 7], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素精通
             },
             {
                 artifact_set_ids: [8, 1, 7], //如雷的盛怒、流浪大地的乐团、角斗士的终幕礼
                 artifact_position_id: 5, //理之冠
                 artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
-                artifact_sub_attr_ids: [9, 10, 1, 4, 7], //暴击率、暴击伤害、数值攻击力、百分比攻击力、元素精通
+                artifact_sub_attr_ids: [10, 9, 4, 1, 7], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素精通
             },
             {
                 artifact_set_ids: [10, 7], //染血的骑士道、角斗士的终幕礼
                 artifact_position_id: 1, //生之花
                 artifact_main_attr_ids: [2], //数值生命值
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力、
             },
             {
                 artifact_set_ids: [10, 7], //染血的骑士道、角斗士的终幕礼
                 artifact_position_id: 2, //死之羽
                 artifact_main_attr_ids: [1], //数值攻击力
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力、
             },
             {
                 artifact_set_ids: [10, 7], //染血的骑士道、角斗士的终幕礼
                 artifact_position_id: 3, //时之沙
                 artifact_main_attr_ids: [5], //百分比攻击力
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力、
             },
             {
                 artifact_set_ids: [10, 7], //染血的骑士道、角斗士的终幕礼
                 artifact_position_id: 4, //空之杯
                 artifact_main_attr_ids: [11], //物理伤害加成
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力、
             },
             {
                 artifact_set_ids: [10, 7], //染血的骑士道、角斗士的终幕礼
                 artifact_position_id: 5, //理之冠
                 artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
-                artifact_sub_attr_ids: [9, 10, 1, 4], //暴击率、暴击伤害、数值攻击力、百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力、
             },
         ],
     },
@@ -598,31 +963,31 @@ character_data = {
                 artifact_set_ids: [5, 11], //被怜爱的少女、昔日宗室之仪
                 artifact_position_id: 1, //生之花
                 artifact_main_attr_ids: [2], //数值生命值
-                artifact_sub_attr_ids: [2, 5, 8], //数值生命值、百分比生命值、元素充能效率
+                artifact_sub_attr_ids: [5, 2, 8], //百分比生命值、数值生命值、元素充能效率
             },
             {
                 artifact_set_ids: [5, 11], //被怜爱的少女、昔日宗室之仪
                 artifact_position_id: 2, //死之羽
                 artifact_main_attr_ids: [1], //数值攻击力
-                artifact_sub_attr_ids: [2, 5, 8], //数值生命值、百分比生命值、元素充能效率
+                artifact_sub_attr_ids: [5, 2, 8], //百分比生命值、数值生命值、元素充能效率
             },
             {
                 artifact_set_ids: [5, 11], //被怜爱的少女、昔日宗室之仪
                 artifact_position_id: 3, //时之沙
                 artifact_main_attr_ids: [9], //元素充能效率
-                artifact_sub_attr_ids: [2, 5, 8], //数值生命值、百分比生命值、元素充能效率
+                artifact_sub_attr_ids: [5, 2, 8], //百分比生命值、数值生命值、元素充能效率
             },
             {
                 artifact_set_ids: [5, 11], //被怜爱的少女、昔日宗室之仪
                 artifact_position_id: 4, //空之杯
                 artifact_main_attr_ids: [4], //百分比生命值
-                artifact_sub_attr_ids: [2, 5, 8], //数值生命值、百分比生命值、元素充能效率
+                artifact_sub_attr_ids: [5, 2, 8], //百分比生命值、数值生命值、元素充能效率
             },
             {
                 artifact_set_ids: [5, 11], //被怜爱的少女、昔日宗室之仪
                 artifact_position_id: 5, //理之冠
                 artifact_main_attr_ids: [4], //百分比生命值
-                artifact_sub_attr_ids: [2, 5, 8], //数值生命值、百分比生命值、元素充能效率
+                artifact_sub_attr_ids: [5, 2, 8], //百分比生命值、数值生命值、元素充能效率
             },
         ],
     },
@@ -634,12 +999,104 @@ character_data = {
     24: {
         name: "可莉",
         link: "https://wiki.biligame.com/ys/%E5%8F%AF%E8%8E%89",
-        artifact_recommendation: [],
+        artifact_recommendation: [
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [5], //百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [12], //火元素伤害加成
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [6], //炽烈的炎之魔女
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+        ],
     },
     25: {
         name: "温迪",
         link: "https://wiki.biligame.com/ys/%E6%B8%A9%E8%BF%AA",
-        artifact_recommendation: [],
+        artifact_recommendation: [
+            {
+                artifact_set_ids: [14], //翠绿之影
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [10, 9, 4, 1, 8], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素充能
+            },
+            {
+                artifact_set_ids: [14], //翠绿之影
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1, 8], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素充能
+            },
+            {
+                artifact_set_ids: [14], //翠绿之影
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [5], //百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1, 8], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素充能
+            },
+            {
+                artifact_set_ids: [14], //翠绿之影
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [16], //风元素加成
+                artifact_sub_attr_ids: [10, 9, 4, 1, 8], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素充能
+            },
+            {
+                artifact_set_ids: [14], //翠绿之影
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
+                artifact_sub_attr_ids: [10, 9, 4, 1, 8], //暴击伤害、暴击率、百分比攻击力、数值攻击力、元素充能
+            },
+            {
+                artifact_set_ids: [14], //翠绿之影
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [8, 4, 1, 7], //元素充能、百分比攻击力、数值攻击力、元素精通
+            },
+            {
+                artifact_set_ids: [14], //翠绿之影
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [8, 4, 1, 7], //元素充能、百分比攻击力、数值攻击力、元素精通
+            },
+            {
+                artifact_set_ids: [14], //翠绿之影
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [9, 5], //元素充能、百分比攻击力
+                artifact_sub_attr_ids: [8, 4, 1, 7], //元素充能、百分比攻击力、数值攻击力、元素精通
+            },
+            {
+                artifact_set_ids: [14], //翠绿之影
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [9, 5], //元素充能、百分比攻击力
+                artifact_sub_attr_ids: [8, 4, 1, 7], //元素充能、百分比攻击力、数值攻击力、元素精通
+            },
+            {
+                artifact_set_ids: [14], //翠绿之影
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [9, 5], //元素充能、百分比攻击力
+                artifact_sub_attr_ids: [8, 4, 1, 7], //元素充能、百分比攻击力、数值攻击力、元素精通
+            },
+        ],
     },
     26: {
         name: "琴",
@@ -659,7 +1116,68 @@ character_data = {
     29: {
         name: "阿贝多",
         link: "https://wiki.biligame.com/ys/%E9%98%BF%E8%B4%9D%E5%A4%9A",
-        artifact_recommendation: [],
+        artifact_recommendation: [
+            {
+                artifact_set_ids: [13], //悠古的磐岩
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [10, 9, 6, 3, 4], //暴击伤害、暴击率、百分比防御力、数值防御力、百分比攻击力
+            },
+            {
+                artifact_set_ids: [13], //悠古的磐岩
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [10, 9, 6, 3, 4], //暴击伤害、暴击率、百分比防御力、数值防御力、百分比攻击力
+            },
+            {
+                artifact_set_ids: [13], //悠古的磐岩
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [3], //百分比防御力
+                artifact_sub_attr_ids: [10, 9, 6, 3, 4], //暴击伤害、暴击率、百分比防御力、数值防御力、百分比攻击力
+            },
+            {
+                artifact_set_ids: [13], //悠古的磐岩
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [17], //岩元素伤害加成
+                artifact_sub_attr_ids: [10, 9, 6, 3, 4], //暴击伤害、暴击率、百分比防御力、数值防御力、百分比攻击力
+            },
+            {
+                artifact_set_ids: [13], //悠古的磐岩
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
+                artifact_sub_attr_ids: [10, 9, 6, 3, 4], //暴击伤害、暴击率、百分比防御力、数值防御力、百分比攻击力
+            },
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 1, //生之花
+                artifact_main_attr_ids: [2], //数值生命值
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 2, //死之羽
+                artifact_main_attr_ids: [1], //数值攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 3, //时之沙
+                artifact_main_attr_ids: [5], //百分比攻击力
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 4, //空之杯
+                artifact_main_attr_ids: [17], //岩元素伤害加成
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+            {
+                artifact_set_ids: [13, 11], //悠古的磐岩、昔日宗室之仪
+                artifact_position_id: 5, //理之冠
+                artifact_main_attr_ids: [6, 7], //暴击率/暴击伤害
+                artifact_sub_attr_ids: [10, 9, 4, 1], //暴击伤害、暴击率、百分比攻击力、数值攻击力
+            },
+        ],
     },
 };
 ////////////////////////////////  character_data end  ////////////////////////////////
