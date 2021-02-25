@@ -706,57 +706,108 @@ for (const key in artifact_sub_attr_dict) {
 ////////////////////////////////  populate drop down list end  ////////////////////////////////
 
 
+//character format: child of character_data object
+function addCharacterRowToTable(character, table_id) {
+    let row = document.createElement("div");
+    row.setAttribute("class", "row");
+    let col_name = document.createElement("div");
+    col_name.setAttribute("class", "col-2 border bg-light");
+    let character_link = document.createElement("a");
+    character_link.setAttribute("href", character["link"]);
+    character_link.setAttribute("target", "blank");
+    character_link.textContent = character["name"];
+    col_name.appendChild(character_link.cloneNode(true));
+    row.appendChild(col_name.cloneNode(true));
+
+    let col_artifacts = document.createElement("div");
+    col_artifacts.setAttribute("class", "col-10 border bg-light");
+
+    let artifact_recommendation = character["artifact_recommendation"];
+    for (let index = 0; index < artifact_recommendation.length; index++) {
+        let row_artifact = document.createElement("div");
+        row_artifact.setAttribute("class", "row");
+
+        let col_artifact_set = document.createElement("div");
+        col_artifact_set.setAttribute("class", "col border bg-light");
+        col_artifact_set.textContent = artifact_recommendation[index].artifact_set_ids.map(x => artifact_set_dict[x]).join("、");
+
+        let col_artifact_position = document.createElement("div");
+        col_artifact_position.setAttribute("class", "col border bg-light");
+        col_artifact_position.textContent = artifact_position_dict[artifact_recommendation[index].artifact_position_id];
+
+        let col_artifact_main = document.createElement("div");
+        col_artifact_main.setAttribute("class", "col border bg-light");
+        col_artifact_main.textContent = artifact_recommendation[index].artifact_main_attr_ids.map(x => artifact_main_attr_dict[x]).join("、");
+
+        let col_artifact_sub = document.createElement("div");
+        col_artifact_sub.setAttribute("class", "col border bg-light");
+        col_artifact_sub.textContent = artifact_recommendation[index].artifact_sub_attr_ids.map(x => artifact_sub_attr_dict[x]).join("、");
+
+        row_artifact.appendChild(col_artifact_set.cloneNode(true));
+        row_artifact.appendChild(col_artifact_position.cloneNode(true));
+        row_artifact.appendChild(col_artifact_main.cloneNode(true));
+        row_artifact.appendChild(col_artifact_sub.cloneNode(true));
+
+        col_artifacts.appendChild(row_artifact.cloneNode(true));
+    }
+    row.appendChild(col_artifacts.cloneNode(true));
+
+    document.getElementById(table_id).appendChild(row.cloneNode(true));
+}
+function addCharacterArtifactRowToTable(character, artifact, table_id) {
+    let row = document.createElement("div");
+    row.setAttribute("class", "row");
+    let col_name = document.createElement("div");
+    col_name.setAttribute("class", "col-2 border bg-light");
+    let character_link = document.createElement("a");
+    character_link.setAttribute("href", character["link"]);
+    character_link.setAttribute("target", "blank");
+    character_link.textContent = character["name"];
+    col_name.appendChild(character_link.cloneNode(true));
+    row.appendChild(col_name.cloneNode(true));
+
+    let col_artifacts = document.createElement("div");
+    col_artifacts.setAttribute("class", "col-10 border bg-light");
+
+    //////
+    let row_artifact = document.createElement("div");
+    row_artifact.setAttribute("class", "row");
+
+    let col_artifact_set = document.createElement("div");
+    col_artifact_set.setAttribute("class", "col border bg-light");
+    col_artifact_set.textContent = artifact.artifact_set_ids.map(x => artifact_set_dict[x]).join("、");
+
+    let col_artifact_position = document.createElement("div");
+    col_artifact_position.setAttribute("class", "col border bg-light");
+    col_artifact_position.textContent = artifact_position_dict[artifact.artifact_position_id];
+
+    let col_artifact_main = document.createElement("div");
+    col_artifact_main.setAttribute("class", "col border bg-light");
+    col_artifact_main.textContent = artifact.artifact_main_attr_ids.map(x => artifact_main_attr_dict[x]).join("、");
+
+    let col_artifact_sub = document.createElement("div");
+    col_artifact_sub.setAttribute("class", "col border bg-light");
+    col_artifact_sub.textContent = artifact.artifact_sub_attr_ids.map(x => artifact_sub_attr_dict[x]).join("、");
+
+    row_artifact.appendChild(col_artifact_set.cloneNode(true));
+    row_artifact.appendChild(col_artifact_position.cloneNode(true));
+    row_artifact.appendChild(col_artifact_main.cloneNode(true));
+    row_artifact.appendChild(col_artifact_sub.cloneNode(true));
+
+    col_artifacts.appendChild(row_artifact.cloneNode(true));
+    //////
+
+    row.appendChild(col_artifacts.cloneNode(true));
+
+    document.getElementById(table_id).appendChild(row.cloneNode(true));
+}
+
 ////////////////////////////////  test purpose: display character_data  ////////////////////////////////
 for (const key in character_data) {
     if (Object.hasOwnProperty.call(character_data, key)) {
         if (Object.hasOwnProperty.call(character_data[key], "name")
             && Object.hasOwnProperty.call(character_data[key], "artifact_recommendation")) {
-
-            let row = document.createElement("div");
-            row.setAttribute("class", "row");
-            let col_name = document.createElement("div");
-            col_name.setAttribute("class", "col-2 border bg-light");
-            let character_link = document.createElement("a");
-            character_link.setAttribute("href", character_data[key]["link"]);
-            character_link.setAttribute("target", "blank");
-            character_link.textContent = character_data[key]["name"];
-            col_name.appendChild(character_link.cloneNode(true));
-            row.appendChild(col_name.cloneNode(true));
-
-            let col_artifacts = document.createElement("div");
-            col_artifacts.setAttribute("class", "col-10 border bg-light");
-
-            let artifact_recommendation = character_data[key]["artifact_recommendation"];
-            for (let index = 0; index < artifact_recommendation.length; index++) {
-                let row_artifact = document.createElement("div");
-                row_artifact.setAttribute("class", "row");
-
-                let col_artifact_set = document.createElement("div");
-                col_artifact_set.setAttribute("class", "col border bg-light");
-                col_artifact_set.textContent = artifact_recommendation[index].artifact_set_ids.map(x => artifact_set_dict[x]).join("、");
-
-                let col_artifact_position = document.createElement("div");
-                col_artifact_position.setAttribute("class", "col border bg-light");
-                col_artifact_position.textContent = artifact_position_dict[artifact_recommendation[index].artifact_position_id];
-
-                let col_artifact_main = document.createElement("div");
-                col_artifact_main.setAttribute("class", "col border bg-light");
-                col_artifact_main.textContent = artifact_recommendation[index].artifact_main_attr_ids.map(x => artifact_main_attr_dict[x]).join("、");
-
-                let col_artifact_sub = document.createElement("div");
-                col_artifact_sub.setAttribute("class", "col border bg-light");
-                col_artifact_sub.textContent = artifact_recommendation[index].artifact_sub_attr_ids.map(x => artifact_sub_attr_dict[x]).join("、");
-
-                row_artifact.appendChild(col_artifact_set.cloneNode(true));
-                row_artifact.appendChild(col_artifact_position.cloneNode(true));
-                row_artifact.appendChild(col_artifact_main.cloneNode(true));
-                row_artifact.appendChild(col_artifact_sub.cloneNode(true));
-
-                col_artifacts.appendChild(row_artifact.cloneNode(true));
-            }
-            row.appendChild(col_artifacts.cloneNode(true));
-
-            document.getElementById("character_data_table").appendChild(row.cloneNode(true));
+                addCharacterRowToTable(character_data[key], "character_data_table");
         }
     }
 }
@@ -798,27 +849,29 @@ document.getElementById("submit_btn").addEventListener("click", function () {
                             (artifact_sub_attr_ids.length == 0 || artifact_sub_attr.filter(x => artifact_sub_attr_ids.includes(x)).length > 0)) {
                             matched_characters.push(name);
 
-                            let col = document.createElement("div");
-                            // col.setAttribute("class","col-2");
+                            // let col = document.createElement("div");
+                            // // col.setAttribute("class","col-2");
 
-                            let card = document.createElement("div");
-                            card.setAttribute("class", "card");
+                            // let card = document.createElement("div");
+                            // card.setAttribute("class", "card");
 
-                            let cardBody = document.createElement("div");
-                            cardBody.setAttribute("class", "card-body");
+                            // let cardBody = document.createElement("div");
+                            // cardBody.setAttribute("class", "card-body");
 
-                            let cardText = document.createElement("a");
-                            cardText.setAttribute("class", "card-text");
-                            cardText.setAttribute("href", link);
-                            cardText.setAttribute("target", "blank");
-                            cardText.textContent = name;
+                            // let cardText = document.createElement("a");
+                            // cardText.setAttribute("class", "card-text");
+                            // cardText.setAttribute("href", link);
+                            // cardText.setAttribute("target", "blank");
+                            // cardText.textContent = name;
 
-                            cardBody.appendChild(cardText.cloneNode(true));
-                            card.appendChild(cardBody.cloneNode(true));
-                            col.appendChild(card.cloneNode(true));
+                            // cardBody.appendChild(cardText.cloneNode(true));
+                            // card.appendChild(cardBody.cloneNode(true));
+                            // col.appendChild(card.cloneNode(true));
 
-                            document.getElementById("matched_result").appendChild(col.cloneNode(true));
+                            // document.getElementById("matched_result").appendChild(col.cloneNode(true));
 
+                            //new
+                            addCharacterArtifactRowToTable(character, artifact_recommendation[index], "result_data_table");
                         }
                     }
                 }
