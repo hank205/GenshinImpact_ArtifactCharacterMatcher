@@ -817,7 +817,7 @@ for (const key in character_data) {
 // search algorithm
 document.getElementById("submit_btn").addEventListener("click", function () {
     document.getElementById("matched_result").innerHTML = '';
-    document.getElementById("result_data_table").innerHTML = '';
+    document.getElementById("result_data_table_body").innerHTML = '';
     
     let artifact_set = Number(document.getElementById("artifact_set").selectedOptions[0].value);
     let artifact_position = Number(document.getElementById("artifact_position").selectedOptions[0].value);
@@ -872,7 +872,7 @@ document.getElementById("submit_btn").addEventListener("click", function () {
                             // document.getElementById("matched_result").appendChild(col.cloneNode(true));
 
                             //new
-                            addCharacterArtifactRowToTable(character, artifact_recommendation[index], "result_data_table");
+                            addCharacterArtifactRowToTable(character, artifact_recommendation[index], "result_data_table_body");
                         }
                     }
                 }
