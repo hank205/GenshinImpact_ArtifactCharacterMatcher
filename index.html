@@ -1,0 +1,162 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Project CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h2>速查圣遗物适合的角色</h2>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="form-group col-4">
+                <div class="row">
+                    <label for="artifact_set" class="col-4">圣遗物名称</label>
+                    <div class="col-7">
+                        <select id="artifact_set" class="form-control">
+                            <option value="" selected>请选择</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group col-4">
+                <div class="row">
+                    <label for="artifact_position" class="col-4">圣遗物位置</label>
+                    <div class="col-7">
+                        <select id="artifact_position" class="form-control">
+                            <option value="" selected>请选择</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group col">
+                <button id="submit_btn" class="btn btn-primary">查找</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="row">
+                    <label for="artifact_main_attr" class="col-4">主属性</label>
+                    <div class="col-7">
+                        <select id="artifact_main_attr" class="form-control">
+                            <option value="" selected>请选择</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <label for="artifact_sub_attr_1" class="col-4">副属性</label>
+                    <div class="col-7">
+                        <div class="row mt-2">
+                            <div class="col">
+                                <select id="artifact_sub_attr_1" class="form-control">
+                                    <option value="" selected>请选择</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col">
+                                <select id="artifact_sub_attr_2" class="form-control">
+                                    <option value="" selected>请选择</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col">
+                                <select id="artifact_sub_attr_3" class="form-control">
+                                    <option value="" selected>请选择</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col">
+                                <select id="artifact_sub_attr_4" class="form-control">
+                                    <option value="" selected>请选择</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<br><br>
+
+<div class="container">
+    <div id="matched_result" class="card-group">
+        <!-- <div class="col-2">
+            <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">name</p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</div>
+
+    <br>
+    <br>
+
+    <div id="character_data_table" class="container">
+        <div class="row">
+            <div class="col-2 border bg-light">角色名称</div>
+            <div class="col border bg-light">
+                <div class="row">
+                    <div class="col border bg-light">
+                        适合的圣遗物
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col border bg-light">
+                        圣遗物名称
+                    </div>
+                    <div class="col border bg-light">
+                        圣遗物位置
+                    </div>
+                    <div class="col border bg-light">
+                        圣遗物主属性
+                    </div>
+                    <div class="col border bg-light">
+                        圣遗物副属性
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- Project JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
