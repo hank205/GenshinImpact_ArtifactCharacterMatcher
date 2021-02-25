@@ -817,7 +817,8 @@ for (const key in character_data) {
 // search algorithm
 document.getElementById("submit_btn").addEventListener("click", function () {
     document.getElementById("matched_result").innerHTML = '';
-
+    document.getElementById("result_data_table").innerHTML = '';
+    
     let artifact_set = Number(document.getElementById("artifact_set").selectedOptions[0].value);
     let artifact_position = Number(document.getElementById("artifact_position").selectedOptions[0].value);
     let artifact_main_attr = Number(document.getElementById("artifact_main_attr").selectedOptions[0].value);
