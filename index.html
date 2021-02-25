@@ -15,11 +15,20 @@
 </head>
 
 <body>
-
-    <h2>速查圣遗物适合的角色</h2>
-    <br><br>
-
     <div class="container">
+        <p class="h2">速查圣遗物适合的角色 <span class="h6">（<a href="https://wiki.biligame.com/ys/%E8%A7%92%E8%89%B2%E7%AD%9B%E9%80%89" target="blank">参考数据来源</a>）</span></p>
+        <div class="jumbotron p-3">
+            <!-- <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+                to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
+            
+            角色数据还很不完善，欢迎补充。
+            <hr>
+            查询结果仅供参考。
+        </div>
+        
         <div class="row">
             <div class="form-group col-12 col-sm-6 col-md-4">
                 <div class="row">
@@ -93,12 +102,8 @@
                 <button id="submit_btn" class="btn btn-primary">查找</button>
             </div>
         </div>
-    </div>
 
-    <br><br>
-
-    <h4>查询结果 （<a href="https://wiki.biligame.com/ys/%E8%A7%92%E8%89%B2%E7%AD%9B%E9%80%89" target="blank">数据参考来源</a>）</h4>
-    <div class="container">
+        <h4>查询结果</h4>
         <div id="matched_result" class="card-group">
             <div class="col-2">
                 <!-- <div class="card">
@@ -110,72 +115,71 @@
                 </div> -->
             </div>
         </div>
-    </div>
-    <br>
-    <div id="result_data_table" class="container">
-        <div class="row">
-            <div class="col-2 border bg-light">角色名称</div>
-            <div class="col border bg-light">
-                <div class="row">
-                    <div class="col border bg-light">
-                        推荐圣遗物
+        <br>
+        <div id="result_data_table" class="">
+            <div class="row">
+                <div class="col-2 border bg-light">角色名称</div>
+                <div class="col border bg-light">
+                    <div class="row">
+                        <div class="col border bg-light">
+                            推荐圣遗物
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col border bg-light">
+                            圣遗物名称
+                        </div>
+                        <div class="col border bg-light">
+                            圣遗物位置
+                        </div>
+                        <div class="col border bg-light">
+                            圣遗物主属性
+                        </div>
+                        <div class="col border bg-light">
+                            圣遗物副属性
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col border bg-light">
-                        圣遗物名称
+            </div>
+            <div id="result_data_table_body">
+
+            </div>
+        </div>
+
+        <br><br>
+        <br><br>
+
+        <h4>角色数据库（测试用）</h4>
+        <div id="character_data_table" class="">
+            <div class="row">
+                <div class="col-2 border bg-light">角色名称</div>
+                <div class="col border bg-light">
+                    <div class="row">
+                        <div class="col border bg-light">
+                            推荐圣遗物
+                        </div>
                     </div>
-                    <div class="col border bg-light">
-                        圣遗物位置
-                    </div>
-                    <div class="col border bg-light">
-                        圣遗物主属性
-                    </div>
-                    <div class="col border bg-light">
-                        圣遗物副属性
+                    <div class="row">
+                        <div class="col border bg-light">
+                            圣遗物名称
+                        </div>
+                        <div class="col border bg-light">
+                            圣遗物位置
+                        </div>
+                        <div class="col border bg-light">
+                            圣遗物主属性
+                        </div>
+                        <div class="col border bg-light">
+                            圣遗物副属性
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="result_data_table_body">
 
-        </div>
+        <br>
+        <br>
     </div>
-
-    <br><br>
-
-
-    <h4>角色数据库（测试用）</h4>
-    <div id="character_data_table" class="container">
-        <div class="row">
-            <div class="col-2 border bg-light">角色名称</div>
-            <div class="col border bg-light">
-                <div class="row">
-                    <div class="col border bg-light">
-                        推荐圣遗物
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col border bg-light">
-                        圣遗物名称
-                    </div>
-                    <div class="col border bg-light">
-                        圣遗物位置
-                    </div>
-                    <div class="col border bg-light">
-                        圣遗物主属性
-                    </div>
-                    <div class="col border bg-light">
-                        圣遗物副属性
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <br>
-    <br>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
