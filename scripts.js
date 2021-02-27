@@ -14,6 +14,7 @@ artifact_set_dict = {
     12: "沉沦之心",
     13: "悠古的磐岩",
     14: "翠绿之影",
+    // 15: "流放者",
 };
 artifact_position_dict = {
     1: "生之花",
@@ -1316,6 +1317,7 @@ for (const key in artifact_sub_attr_dict) {
 
 
 ////////////////////////////////  helper functions  ////////////////////////////////
+//add all artifact rows for a character, used in test table
 //character format: child of character_data object
 function addCharacterRowToTable(character, table_id) {
     let row = document.createElement("div");
@@ -1429,6 +1431,7 @@ function setDropDownSelectedValue(dropdown_id, value){
 document.getElementById("search_btn").addEventListener("click", function () {
     document.getElementById("matched_result").innerHTML = '';
     document.getElementById("result_data_table_body").innerHTML = '';
+    document.getElementById("result_data_table_2_body").innerHTML = '';
     
     let artifact_set = Number(document.getElementById("artifact_set").selectedOptions[0].value);
     let artifact_position = Number(document.getElementById("artifact_position").selectedOptions[0].value);
@@ -1468,30 +1471,15 @@ document.getElementById("search_btn").addEventListener("click", function () {
                             // artifact_sub_attr.every(x => artifact_sub_attr_ids.includes(x))
                             (artifact_sub_attr_ids.length == 0 || artifact_sub_attr.filter(x => artifact_sub_attr_ids.includes(x)).length > 0)) {
                             matched_characters.push(name);
-
-                            // let col = document.createElement("div");
-                            // // col.setAttribute("class","col-2");
-
-                            // let card = document.createElement("div");
-                            // card.setAttribute("class", "card");
-
-                            // let cardBody = document.createElement("div");
-                            // cardBody.setAttribute("class", "card-body");
-
-                            // let cardText = document.createElement("a");
-                            // cardText.setAttribute("class", "card-text");
-                            // cardText.setAttribute("href", link);
-                            // cardText.setAttribute("target", "blank");
-                            // cardText.textContent = name;
-
-                            // cardBody.appendChild(cardText.cloneNode(true));
-                            // card.appendChild(cardBody.cloneNode(true));
-                            // col.appendChild(card.cloneNode(true));
-
-                            // document.getElementById("matched_result").appendChild(col.cloneNode(true));
-
-                            //new
                             addCharacterArtifactRowToTable(character, artifact_recommendation[index], "result_data_table_body");
+                        }
+                        else if (!artifact_set_ids.includes(artifact_set) &&
+                            artifact_position_id == artifact_position &&
+                            artifact_main_attr_ids.includes(artifact_main_attr) &&
+                            // artifact_sub_attr.every(x => artifact_sub_attr_ids.includes(x))
+                            (artifact_sub_attr_ids.length == 0 || artifact_sub_attr.filter(x => artifact_sub_attr_ids.includes(x)).length > 0)) {
+                            matched_characters.push(name);
+                            addCharacterArtifactRowToTable(character, artifact_recommendation[index], "result_data_table_2_body");
                         }
                     }
                 }
